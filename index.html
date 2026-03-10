@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AjansAI - Gizlilik Politikası</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 { color: #6C5CE7; margin-bottom: 8px; font-size: 28px; }
+        h2 { color: #2d3436; margin-top: 28px; margin-bottom: 12px; font-size: 20px; border-bottom: 2px solid #6C5CE7; padding-bottom: 6px; }
+        p { margin-bottom: 12px; }
+        ul { margin-left: 20px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        .date { color: #636e72; font-size: 14px; margin-bottom: 24px; }
+        .highlight { background: #f0efff; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #6C5CE7; }
+        a { color: #6C5CE7; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ AjansAI Gizlilik Politikası</h1>
+        <p class="date">Son güncelleme: 10 Mart 2026</p>
+
+        <div class="highlight">
+            <strong>Özet:</strong> AjansAI, kullanıcı verilerini cihaz üzerinde saklar. Sunucularımıza hiçbir kişisel veri gönderilmez. AI özellikleri, yalnızca kullanıcının kendi sağladığı API anahtarı ile çalışır.
+        </div>
+
+        <h2>1. Toplanan Veriler</h2>
+        <p>AjansAI aşağıdaki verileri <strong>yalnızca cihazınızda</strong> depolar:</p>
+        <ul>
+            <li><strong>Haber verileri:</strong> RSS beslemelerinden çekilen haber başlıkları, özetleri ve görselleri cihaz üzerindeki SQLite veritabanında saklanır.</li>
+            <li><strong>Kullanıcı tercihleri:</strong> Takip ettiğiniz konular, haber kaynağı tercihleri, bildirim ayarları ve dil seçimi.</li>
+            <li><strong>API anahtarı:</strong> Google Gemini API anahtarınız, yalnızca cihazınızda şifreli olarak saklanır.</li>
+            <li><strong>Kaydedilen haberler:</strong> Yer imlerine eklediğiniz haberler lokal veritabanında tutulur.</li>
+        </ul>
+
+        <h2>2. Veri İletimi</h2>
+        <p>AjansAI aşağıdaki durumlarda internet bağlantısı kullanır:</p>
+        <ul>
+            <li><strong>RSS beslemeleri:</strong> Haber kaynaklarından güncel haberleri çekmek için (örn: NTV, CNN Türk, Hürriyet vb.).</li>
+            <li><strong>AI özellikleri:</strong> Haber özetleme ve rapor oluşturma için <strong>Google Gemini API</strong>'ye istek gönderilir. Bu istekler, yalnızca haber metni içerir ve kullanıcının kendi API anahtarı ile yapılır.</li>
+            <li><strong>Google News:</strong> Haber aramaları için Google News RSS servisi kullanılır.</li>
+        </ul>
+        <div class="highlight">
+            ⚠️ <strong>Önemli:</strong> AjansAI'nin kendi sunucusu yoktur. Tüm veriler cihazınızda kalır. Üçüncü taraf sunuculara (Google Gemini API hariç) hiçbir kişisel veri gönderilmez.
+        </div>
+
+        <h2>3. Üçüncü Taraf Hizmetleri</h2>
+        <ul>
+            <li><strong>Google Gemini API:</strong> AI destekli özetleme ve analiz için kullanılır. Bu hizmet Google'ın gizlilik politikasına tabidir: <a href="https://policies.google.com/privacy" target="_blank">Google Gizlilik Politikası</a></li>
+            <li><strong>Google ML Kit:</strong> Cihaz üzerinde OCR (metin tanıma) için kullanılır. Veriler cihazdan dışarı çıkmaz.</li>
+        </ul>
+
+        <h2>4. Veri Güvenliği</h2>
+        <ul>
+            <li>Tüm API anahtarları cihazda şifreli olarak saklanır.</li>
+            <li>Tüm ağ iletişimleri HTTPS üzerinden yapılır.</li>
+            <li>Uygulama herhangi bir analitik veya izleme aracı kullanmaz.</li>
+            <li>Kullanıcı verileri hiçbir şekilde reklam amacıyla kullanılmaz.</li>
+        </ul>
+
+        <h2>5. Kullanıcı Hakları</h2>
+        <ul>
+            <li>Uygulamayı kaldırdığınızda tüm veriler otomatik olarak silinir.</li>
+            <li>Ayarlar sayfasından tüm verileri sıfırlayabilirsiniz.</li>
+            <li>Yapılandırma yedeğini dışa aktarıp içe aktarabilirsiniz.</li>
+        </ul>
+
+        <h2>6. Çocukların Gizliliği</h2>
+        <p>AjansAI 13 yaş altı çocuklara yönelik değildir. Bilinçli olarak 13 yaş altı çocuklardan kişisel bilgi toplamıyoruz.</p>
+
+        <h2>7. Değişiklikler</h2>
+        <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler bu sayfada yayınlanacaktır.</p>
+
+        <h2>8. İletişim</h2>
+        <p>Gizlilik politikası hakkında sorularınız için: <a href="mailto:ajansai.app@gmail.com">ajansai.app@gmail.com</a></p>
+    </div>
+</body>
+</html>
